@@ -9,8 +9,7 @@ export default function Page() {
             </header>
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
-                    <h1>Lee GaYeon (KaHo)</h1>
-                    <h2>イ ガヨン (かほ)</h2>
+                    <h1>My Skills</h1>
                     <h3>Languages</h3>
                     <p>Korean (Native language)</p>
                     <p>Japanese (JLPT N1)</p>
@@ -21,11 +20,11 @@ export default function Page() {
                     <p>IPA: Fundamental Information Technology Engineer Examination (基本情報処理技術者)</p>
                     <p>IPA: Information Technology Passport Examination (ITパスポート)</p>
                     <p>Second-Class Land Special Radio Operator (第二級陸上特殊無線技士)</p>
-                    <h3>IT skills</h3>
+                    <h3>Programming</h3>
                     <p>Python</p>
                     <p>C / C++ / C#</p>
                     <p>JavaScript</p>
-                    <h3>Experience/Internship</h3>
+                    <h3>Activity/Internship</h3>
                     <p>Microsoft Azure PaaS Developer Technical Support Engineer (Intern)</p>
                     <p>Osaka University GDSC (Google Developer Student Club) Event team Lead</p>
                 </div>
