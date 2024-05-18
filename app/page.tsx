@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {githubLink, linkedinLink, twitterLink, yourName} from "@/app/property";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
 import Gmail from"@/assets/gmail_logo.png"
@@ -7,13 +8,13 @@ export default function Home() {
   return (
       <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
           <Link href={'/orange'}>
-              Orange
+              History
           </Link>
           <Link href={'/paper'}>
-              Paper
+              Skill
           </Link>
           <Link href={'/photographic'}>
-              Photographic
+              About me
           </Link>
                     <section className={'bg-orange-container-a rounded-[3rem] p-12 leading-loose ' +
                         'absolute right-12 top-12'}>
