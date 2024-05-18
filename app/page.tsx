@@ -1,3 +1,5 @@
+import Header from "@/app/orange/_components/header";
+import Footer from "@/app/orange/_components/footer";
 import Link from "next/link";
 import {githubLink, linkedinLink, gmailLink, yourName} from "@/app/property";
 import Image from "next/image";
@@ -23,6 +25,7 @@ export default function Home() {
                 </div>
           </div>
           <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 py-10 z-10'}>
+            <Header/>
             <h1 className={"py-32 line"}>
               <p className={'inline text-6xl font-semibold pr-6'}>{yourName}</p>
             </h1>
@@ -52,8 +55,9 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'items-center absolute top-16 right-0'}/>
+              <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'items-center absolute top-[360px] right-0'}/>
             </div>
+            <Footer/>
           </div>
       </main>
   );
