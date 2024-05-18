@@ -4,7 +4,6 @@ import {githubLink, linkedinLink} from "@/app/property";
 import Image from "next/image";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
-import myhistory from"@/assets/myhistory.png"
 
 export default function Home() {
   return (
