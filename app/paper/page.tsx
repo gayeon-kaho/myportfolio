@@ -11,15 +11,27 @@ export default function Page() {
                 <div className={'paper'}>
                     <h1>Lee GaYeon (KaHo)</h1>
                     <h2>イ ガヨン (かほ)</h2>
-                    <h3>About</h3>
-                    <p>大阪大学大学院 情報科学研究科 情報システム工学専攻 M1</p>
-                    <h3>History</h3>
-                    <h3>Contact</h3>
-                    <h3>Works</h3>
+                    <h3>Languages</h3>
+                    <p>Korean (Native language)</p>
+                    <p>Japanese (JLPT N1)</p>
+                    <p>English (TOEIC score 950)</p>
+                    <p>Romanian (Moldovan Bacalaureat)</p>
+                    <h3>Certificate</h3>
+                    <p>Microosft Certificate: Azure Fundamentals (AZ-900)</p>
+                    <p>IPA: Fundamental Information Technology Engineer Examination (基本情報処理技術者)</p>
+                    <p>IPA: Information Technology Passport Examination (ITパスポート)</p>
+                    <p>Second-Class Land Special Radio Operator (第二級陸上特殊無線技士)</p>
+                    <h3>IT skills</h3>
+                    <p>Python</p>
+                    <p>C / C++ / C#</p>
+                    <p>JavaScript</p>
+                    <h3>Experience/Internship</h3>
+                    <p>Microsoft Azure PaaS Developer Technical Support Engineer (Intern)</p>
+                    <p>Osaka University GDSC (Google Developer Student Club) Event team Lead</p>
                 </div>
             </main>
             <footer className={'py-8'}>
-                anya © {new Date().getFullYear()}
+                Lee GaYeon (KaHo) © {new Date().getFullYear()}
             </footer>
         </div>
     )
