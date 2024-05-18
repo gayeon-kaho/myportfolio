@@ -3,42 +3,58 @@ import {githubLink, linkedinLink, twitterLink, yourName} from "@/app/property";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
 import Gmail from"@/assets/gmail_logo.png"
+import myhistory from"@/assets/myhistory.png"
 
 export default function Home() {
   return (
       <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
-          <Link href={'/orange'}>
-              History
-          </Link>
-          <Link href={'/paper'}>
-              Skill
-          </Link>
-          <Link href={'/photographic'}>
-              About me
-          </Link>
-                    <section className={'bg-orange-container-a rounded-[3rem] p-12 leading-loose ' +
+          <div className={'absolute w-screen z-0'}>
+                <div className={'relative'}>
+                    <Link href={'/orange'}>
+                      History
+                    </Link>
+                  <Link href={'/paper'}>
+                    Skill
+                  </Link>
+                  <Link href={'/photographic'}>
+                    About me
+                  </Link>
+                </div>
+          </div>
+          <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 py-10 z-10'}>
+            <Header/>
+            <h1 className={"py-32 line"}>
+              <p className={'inline text-6xl font-semibold pr-6'}>{yourName}</p>
+            </h1>
+            <div className={'relative w-full  h-[36rem]'}>
+              <section className={'bg-orange-container-a rounded-[3rem] p-12 leading-loose ' +
                         'absolute right-12 top-12'}>
-                        <ul className={'flex flex-col gap-4'}>
-                            <li>
-                                <Image src={Gmail} alt={'gmail'}
-                                       width={30} height={30} className={'inline mr-3'}/>
-                                <a href={gmailLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>Gmail</a>
-                            </li>
-                            <li>
-                                <Image src={LinkedIn} alt={'linkedin'}
-                                       width={30} height={30} className={'inline mr-3'}/>
-                                <a href={linkedinLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>LinkedIn</a>
-                            </li>
-                            <li>
-                                <Image src={GitHub} alt={'github'}
-                                       width={30} height={30} className={'inline mr-3'}/>
-                                <a href={githubLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>GitHub</a>
-                            </li>
-                        </ul>
-                    </section>
+                <ul className={'flex flex-col gap-4'}>
+                  <li>
+                    <Image src={Gmail} alt={'gmail'}
+                      width={30} height={30} className={'inline mr-3'}/>
+                    <a href={gmailLink} target={'_blank'} rel={'noopener noreferrer'}
+                      className={'inline'}>Gmail</a>
+                  </li>
+                  <li>
+                    <Image src={LinkedIn} alt={'linkedin'}
+                      width={30} height={30} className={'inline mr-3'}/>
+                    <a href={linkedinLink} target={'_blank'} rel={'noopener noreferrer'}
+                       className={'inline'}>LinkedIn</a>
+                  </li>
+                  <li>
+                    <Image src={GitHub} alt={'github'}
+                      width={30} height={30} className={'inline mr-3'}/>
+                    <a href={githubLink} target={'_blank'} rel={'noopener noreferrer'}
+                      className={'inline'}>GitHub</a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <div>
+              <Image src={myhistory} alt={"myhistory"}  width={420} height={420} className={'items-center absolute top-16 right-0'}/>
+            </div>
+          </div>
       </main>
   );
 }
