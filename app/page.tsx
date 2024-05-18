@@ -11,20 +11,7 @@ import myhistory from"@/assets/myhistory.png"
 export default function Home() {
   return (
       <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
-          <div className={'absolute w-screen z-0'}>
-                <div className={'relative'}>
-                    <Link href={'/orange'}>
-                      History
-                    </Link>
-                    <Link href={'/paper'}>
-                      Skill
-                    </Link>
-                    <Link href={'/photographic'}>
-                      About me
-                    </Link>
-                </div>
-          </div>
-          <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 py-10 z-10'}>
+          <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 z-10'}>
             <Header/>
             <h1 className={"py-32 line"}>
               <p className={'inline text-6xl font-semibold pr-6'}>{yourName}</p>
@@ -55,7 +42,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'items-center absolute top-[360px] right-0'}/>
+              <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'items-center absolute top-[800px] right-0'}/>
             </div>
             <Footer/>
           </div>
