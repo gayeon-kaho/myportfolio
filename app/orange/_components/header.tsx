@@ -5,11 +5,11 @@ import Triangle from "@/assets/orange/triangle.svg"
 export default function Header() {
     return (
         <header className={'flex flex-row items-center gap-6'}>
-            <Link href={'/about'}>About</Link>
+            <Link href={'/orange'}>About me</Link>
             <Image src={Triangle} alt={"fruit"}  width={19} height={21}/>
-            <Link href={'/works'}>Works</Link>
+            <Link href={'/paper'}>Skill</Link>
             <Image src={Triangle} alt={"fruit"}  width={19} height={21}/>
-            <Link href={'/blog'}>Blog</Link>
+            <Link href={'/photographic'}>Experience</Link>
         </header>
     )
 }
