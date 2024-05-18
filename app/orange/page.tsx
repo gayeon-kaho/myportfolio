@@ -1,6 +1,6 @@
 import Header from "@/app/orange/_components/header";
 import Footer from "@/app/orange/_components/footer";
-import {githubLink, instagramLink, twitterLink, yourName} from "@/app/property";
+import {githubLink, LinkedInLink, twitterLink, yourName} from "@/app/property";
 import "@/app/orange/_components/header.css";
 import Image from "next/image";
 import Fruit from "@/assets/orange/fruit.svg"
@@ -45,10 +45,10 @@ export default function Page() {
                                    className={'inline'}>Twitter</a>
                             </li>
                             <li>
-                                <Image src={Instagram} alt={'instagram'}
+                                <Image src={Instagram} alt={'linkedin'}
                                        width={30} height={30} className={'inline mr-3'}/>
-                                <a href={instagramLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>Instagram</a>
+                                <a href={LinkedInLink} target={'_blank'} rel={'noopener noreferrer'}
+                                   className={'inline'}>LinkedIn</a>
                             </li>
                             <li>
                                 <Image src={GitHub} alt={'github'}
