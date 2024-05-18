@@ -5,7 +5,7 @@ import "@/app/orange/_components/header.css";
 import Image from "next/image";
 import Fruit from "@/assets/orange/fruit.svg"
 import Twitter from "@/assets/orange/twitter_outlined.png"
-import Instagram from "@/assets/orange/linkedin_outline.png"
+import LinkedIn from "@/assets/orange/linkedin_outline.png"
 import GitHub from "@/assets/orange/github_outlined.png"
 
 export default function Page() {
