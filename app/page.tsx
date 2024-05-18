@@ -33,9 +33,6 @@ export default function Home() {
                 </ul>
               </section>
             </div>
-            <div>
-              <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'items-center absolute top-[720px] right-0'}/>
-            </div>
             <Footer/>
           </div>
       </main>
