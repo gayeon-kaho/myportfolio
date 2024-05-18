@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <>
             <header className={'px-16 py-8 bg-photo-surface'}>
-                <h1 className={'text-[1.75rem] leading-loose'}>Anya Forger</h1>
+                <h1 className={'text-[1.75rem] leading-loose'}>Lee GaYeon</h1>
                 <p>Spy / Primary School Student</p>
             </header>
             <main>
