@@ -52,7 +52,7 @@ export default function Home() {
               </section>
             </div>
             <div>
-              <Image src={myhistory} alt={"myhistory"}  width={420} height={420} className={'items-center absolute top-16 right-0'}/>
+              <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'items-center absolute top-16 right-0'}/>
             </div>
           </div>
       </main>
