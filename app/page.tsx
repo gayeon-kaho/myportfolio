@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {githubLink, linkedinLink, gmailLink, yourName} from "@/app/property";
+import Image from "next/image";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
 import Gmail from"@/assets/gmail_logo.png"
