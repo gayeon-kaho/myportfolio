@@ -13,10 +13,10 @@ export const runtime = 'nodejs';
 
 export const metadata: Metadata = {
     title: {
-        default: `${yourName}.me`,
+        default: `${yourName}.mywebpage`,
         template: `%s - ${yourName}.me`
     },
-    description: `${yourName}'s portfolio website`,
+    description: `${yourName}'s personal website`,
 };
 
 export default function RootLayout({
