@@ -16,12 +16,12 @@ export default function Home() {
                     <Link href={'/orange'}>
                       History
                     </Link>
-                  <Link href={'/paper'}>
-                    Skill
-                  </Link>
-                  <Link href={'/photographic'}>
-                    About me
-                  </Link>
+                    <Link href={'/paper'}>
+                      Skill
+                    </Link>
+                    <Link href={'/photographic'}>
+                      About me
+                    </Link>
                 </div>
           </div>
           <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 py-10 z-10'}>
