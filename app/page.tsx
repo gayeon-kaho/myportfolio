@@ -1,6 +1,7 @@
-import Header from "@/app/header";
-import Footer from "@/app/footer";
+import Header from "@/app/orange/_components/header";
+import Footer from "@/app/orange/_components/footer";
 import {githubLink, linkedinLink} from "@/app/property";
+import "@/app/orange/_components/header.css";
 import Image from "next/image";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
