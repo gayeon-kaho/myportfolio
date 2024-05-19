@@ -17,7 +17,6 @@ export default function Page() {
                 </div>
             </div>
             <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 py-10 z-10'}>
-                <Header/>
                 <h1 className={"py-32 line"}>
                     <p className={'inline text-6xl font-semibold pr-6'}>{yourName}</p>
                     <p className={'inline text-6xl '}>Portfolio</p>
