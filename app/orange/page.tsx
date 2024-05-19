@@ -1,12 +1,10 @@
-import Header from "@/app/orange/_components/header";
 import Footer from "@/app/orange/_components/footer";
-import {githubLink, linkedinLink, twitterLink, yourName} from "@/app/property";
+import {githubLink, linkedinLink, yourName} from "@/app/property";
 import "@/app/orange/_components/header.css";
 import Image from "next/image";
 import Fruit from "@/assets/orange/fruit.svg"
-import Twitter from "@/assets/orange/twitter_outlined.png"
-import LinkedIn from "@/assets/orange/linkedin_outline.png"
-import GitHub from "@/assets/orange/github_outlined.png"
+import LinkedIn from "@/assets/linkedin_logo.png"
+import GitHub from "@/assets/github_logo.png"
 
 export default function Page() {
     return (
@@ -29,21 +27,15 @@ export default function Page() {
                         'absolute left-56 top-44 w-36 h-36'}/>
                     <section className={'bg-orange-container-b rounded-[3rem] p-12 leading-loose ' +
                         'absolute left-8'}>
-                        <h2>About</h2>
-                        <p>University of Osaka</p>
-                        <p>Faculty of Engineering</p>
-                        <p>Science, Department of</p>
-                        <p>Information Science</p>
+                        <h2>I love</h2>
+                        <p>Food</p>
+                        <p>Jazz</p>
+                        <p>People</p>
+                        <p>Wandering</p>
                     </section>
                     <section className={'bg-orange-container-a rounded-[3rem] p-12 leading-loose ' +
                         'absolute right-12 top-12'}>
                         <ul className={'flex flex-col gap-4'}>
-                            <li>
-                                <Image src={Twitter} alt={'twitter'}
-                                       width={30} height={30} className={'inline mr-3'}/>
-                                <a href={twitterLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>Twitter</a>
-                            </li>
                             <li>
                                 <Image src={LinkedIn} alt={'linkedin'}
                                        width={30} height={30} className={'inline mr-3'}/>
