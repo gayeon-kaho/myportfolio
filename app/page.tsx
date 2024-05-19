@@ -12,7 +12,7 @@ export default function Home() {
           <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 z-10'}>
             <Header/>
             <h1 className={"py-32 line"}>
-              <p className={'inline text-6xl font-semibold pr-6'}>Hello, I'm GaYeon/KaHo!</p>
+              <p className={'inline text-6xl font-semibold pr-6'}>Hello, I&apos;m GaYeon/KaHo!</p>
             </h1>
             <div className={'relative w-full  h-[36rem]'}>
               <section className={'bg-orange-container-a rounded-[1rem] p-12 leading-loose ' +
