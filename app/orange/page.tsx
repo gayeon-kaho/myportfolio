@@ -1,65 +1,42 @@
-import Footer from "@/app/orange/_components/footer";
-import {githubLink, linkedinLink, yourName} from "@/app/property";
-import "@/app/orange/_components/header.css";
+import "@/app/photographic/photographic.css"
 import Image from "next/image";
-import Fruit from "@/assets/orange/fruit.svg"
-import LinkedIn from "@/assets/linkedin_logo.png"
-import GitHub from "@/assets/github_logo.png"
+import CherryBlossom from "@/assets/photographic/cherry.png";
+import Nemophila from "@/assets/photographic/nemophila.jpg";
+import {Section} from "@/app/photographic/_components/section";
 
 export default function Page() {
     return (
-        <main className={'bg-orange-background w-screen min-h-screen '}>
-            <div className={'absolute w-screen z-0'}>
-                <div className={'relative'}>
-                    <Image src={Fruit} alt={"fruit"} width={240} height={240} className={'rotate-12 absolute top-12 left-16'}/>
-                    <Image src={Fruit} alt={"fruit"}  width={420} height={420} className={'-rotate-45 absolute top-16 right-0'}/>
-                    <Image src={Fruit} alt={"fruit"}  width={320} height={320} className={'-rotate-12 absolute top-[30rem] right-[24rem]'}/>
-                </div>
-            </div>
-            <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 py-10 z-10'}>
-                <h1 className={"py-32 line"}>
-                    <p className={'inline text-6xl font-semibold pr-6'}>{yourName}</p>
-                    <p className={'inline text-6xl '}>Portfolio</p>
-                </h1>
-                <div className={'relative w-full  h-[36rem]'}>
-                    <section className={'bg-orange-container-b rounded-[3rem] p-12 leading-loose ' +
-                        'absolute left-56 top-44 w-36 h-36'}/>
-                    <section className={'bg-orange-container-b rounded-[3rem] p-12 leading-loose ' +
-                        'absolute left-8'}>
-                        <h2>I love</h2>
-                        <p>Food</p>
-                        <p>Jazz</p>
-                        <p>People</p>
-                        <p>Wandering</p>
-                    </section>
-                    <section className={'bg-orange-container-a rounded-[3rem] p-12 leading-loose ' +
-                        'absolute right-12 top-12'}>
-                        <ul className={'flex flex-col gap-4'}>
-                            <li>
-                                <Image src={LinkedIn} alt={'linkedin'}
-                                       width={30} height={30} className={'inline mr-3'}/>
-                                <a href={linkedinLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>LinkedIn</a>
-                            </li>
-                            <li>
-                                <Image src={GitHub} alt={'github'}
-                                       width={30} height={30} className={'inline mr-3'}/>
-                                <a href={githubLink} target={'_blank'} rel={'noopener noreferrer'}
-                                   className={'inline'}>GitHub</a>
-                            </li>
-                        </ul>
-                    </section>
-                    <section className={'bg-orange-container-c rounded-[3rem] p-12 leading-loose ' +
-                        'absolute left-48 top-[360px]'}>
-                        <h2>History</h2>
-                        <p>
-                            <span className={'pr-4'}>2024.09</span>
-                            <span>Birth</span>
-                        </p>
-                    </section>
-                </div>
-                <Footer/>
-            </div>
-        </main>
-    );
+        <>
+            <header className={'px-16 py-8 bg-photo-surface'}>
+                <h1 className={'text-[1.75rem] leading-loose'}>I Love</h1>
+            </header>
+            <main>
+                <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Section>
+                    <h2>Jazz</h2>
+                    <p> </p>
+                </Section>
+                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
+                <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Section>
+                    <h2>Food</h2>
+                    <p> </p>
+                </Section>
+                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/><Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Section>
+                    <h2>People</h2>
+                    <p> </p>
+                </Section>
+                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/><Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Section>
+                    <h2>Wandering</h2>
+                    <p> </p>
+                </Section>
+                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
+            </main>
+            <footer className={'py-8'}>
+                Lee GaYeon (KaHo) © {new Date().getFullYear()}
+            </footer>
+        </>
+    )
 }
