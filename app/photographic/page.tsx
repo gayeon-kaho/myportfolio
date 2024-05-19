@@ -15,7 +15,7 @@ export default function Page() {
             <main>
                 <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
                 <section className={'mt-8'}>
-                    <Image src={myhistory} alt={"myhistory"}  width={1600} height={1200} className={'w-full h-auto my-8'}/>
+                    <Image src={myhistory} alt={"myhistory"} className={'w-full h-auto my-8'}/>
                 </section>
                 <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
             </main>
