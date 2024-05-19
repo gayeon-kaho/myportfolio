@@ -27,12 +27,6 @@ export default function Page() {
                     <h2>People</h2>
                     <p> </p>
                 </Section>
-                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/><Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
-                <Section>
-                    <h2>Wandering</h2>
-                    <p> </p>
-                </Section>
-                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
             </main>
             <footer className={'py-8'}>
                 Lee GaYeon (KaHo) © {new Date().getFullYear()}
