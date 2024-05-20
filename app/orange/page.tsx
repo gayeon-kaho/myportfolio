@@ -31,7 +31,7 @@ export default function Page() {
                     <h2 className={'font-semibold'}>People</h2>
                     <p>When people being people!</p>
                 </section>
-                <Image src={People} alt={'people'} className={'w-full h-96 object-cover ml-auto'}/>
+                <Image src={People} alt={'people'} className={'w-full h-full object-cover ml-auto'}/>
             </main>
             <footer className={'py-8'}>
                 Lee GaYeon (KaHo) © {new Date().getFullYear()}
