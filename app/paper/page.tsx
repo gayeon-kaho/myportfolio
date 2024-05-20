@@ -4,11 +4,11 @@ import {orizontlink, ogatalablink, uranishilablink} from "@/app/property";
 
 export default function Page() {
     return (
-        <div className="bg-paper-background w-screen min-h-screen text-center">
-            <header className="absolute w-screen px-12 py-6 flex gap-8 justify-end">
-                <a>About</a>
-                <Link href="/photographic">I&apos;ve Done</Link>
-            </header>
+        //<div className="bg-paper-background w-screen min-h-screen text-center">
+          //  <header className="absolute w-screen px-12 py-6 flex gap-8 justify-end">
+            //    <a>About</a>
+            //    <Link href="/photographic">I&apos;ve Done</Link>
+          //  </header>
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
                     <h1>My Skills</h1>
@@ -46,6 +46,6 @@ export default function Page() {
             <footer className={'py-8'}>
                 Lee GaYeon (KaHo) © {new Date().getFullYear()}
             </footer>
-        </div>
+      //  </div>
     )
 }
