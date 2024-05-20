@@ -5,10 +5,13 @@ import "@/app/orange/_components/header.css";
 import Image from "next/image";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
+import thumbnail from "@/assets/thumbnail.jpg"
 
 export default function Home() {
   return (
       <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
+        <div className={'relative'}>
+                    <Image src={thumbnail} alt={"thumbnail"} width={960} height={1440} className={'absolute top-12 left-16'}/>
           <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 z-10'}>
             <Header/>
             <h1 className={"py-32 line"}>
@@ -35,6 +38,7 @@ export default function Home() {
             </div>
             <Footer/>
           </div>
+        </div>
       </main>
   );
 }
