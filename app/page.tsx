@@ -9,15 +9,24 @@ import thumbnail from "@/assets/thumbnail.jpg"
 
 export default function Home() {
   return (
-      <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
-        <div className={'relative'}>
-                    <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className={'absolute top-12 left-8 -z-10'}/>
-          <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 z-10'}>
+      <main className={'w-screen h-screen p-20 bg-slate-50 flex justify-center items-center'}>
+        <div className={'relative w-full max-w-screen-lg flex flex-col items-center'}>
+          
+          <div className="z-10 text-center">
             <Header/>
+          </div>
+          
+          <div classname="relative w-full">
+            <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className="absolute top-16 left-1/2 transform -translate-x-1/2 -z-10"/>
+          </div>
+
+          <div className="z-10 text-center">
             <h1 className={"py-32 line"}>
               <p className={'inline text-6xl font-semibold pr-6'}>Hello, I&apos;m GaYeon/KaHo!</p>
             </h1>
-            <div className={'relative w-full  h-[36rem]'}>
+          </div>
+          
+            <div className={'relative w-full  h-[36rem] z-10'}>
               <section className={'bg-orange-container-a rounded-[1rem] p-12 leading-loose ' +
                         'absolute top-12'} style={{ right: '-16rem' }}>
                 <ul className={'flex flex-col gap-4'}>
