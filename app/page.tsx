@@ -16,7 +16,7 @@ export default function Home() {
             </h1>
             <div className={'relative w-full  h-[36rem]'}>
               <section className={'bg-orange-container-a rounded-[1rem] p-12 leading-loose ' +
-                        'absolute top-12'} style={{ left: '-17rem' }}>
+                        'absolute top-12'} style={{ right: '-16rem' }}>
                 <ul className={'flex flex-col gap-4'}>
                   <li>
                     <Image src={LinkedIn} alt={'linkedin'}
