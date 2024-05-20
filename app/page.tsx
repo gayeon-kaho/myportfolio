@@ -11,7 +11,7 @@ export default function Home() {
   return (
       <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
         <div className={'relative'}>
-                    <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className={'absolute top-12 left-8'}/>
+                    <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className={'absolute top-12 left-8 -z-10'}/>
           <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 z-10'}>
             <Header/>
             <h1 className={"py-32 line"}>
