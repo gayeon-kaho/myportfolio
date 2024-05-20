@@ -2,6 +2,8 @@ import "@/app/photographic/photographic.css"
 import Image from "next/image";
 import CherryBlossom from "@/assets/photographic/cherry.png";
 import Nemophila from "@/assets/photographic/nemophila.jpg";
+import Jazz1 from "@/assets/orange/jazz1.png";
+import Jazz2 from "@/assets/orange/jazz2.png";
 import Food1 from "@/assets/food1.png";
 import Food2 from "@/assets/food2.png";
 import {Section} from "@/app/photographic/_components/section";
@@ -13,12 +15,12 @@ export default function Page() {
                 <h1 className={'text-[1.75rem] leading-loose'}>I Love</h1>
             </header>
             <main>
-                <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Image src={Jazz2} alt={'jazz2'} className={'w-full h-96 object-cover'}/>
                     <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2>Jazz</h2>
                     <p> </p>
                 </section>
-                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
+                <Image src={Jazz1} alt={'jazz1'} className={'w-full h-96 object-cover ml-auto'}/>
                 <Image src={Food2} alt={'food2'} className={'w-full h-96 object-cover'}/>
                 <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2>Foods</h2>
