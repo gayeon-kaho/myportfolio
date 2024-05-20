@@ -15,13 +15,13 @@ export default function Page() {
                     <h3>Education</h3>
                     <p>Master&apos; degree) Osaka University, Information Science and Technology</p>
                     <p><a href={uranishilablink} target={'_blank'} rel={'noopener noreferrer'}
-                       className={'inline'}>[Click here to see my lab!]</a></p>
+                       className={'inline'}>Click here to see my lab!</a></p>
                     <p>Bachelor&apos;s degree) Kumamoto University, Electronic Engineering</p>
                     <a href={ogatalablink} target={'_blank'} rel={'noopener noreferrer'}
-                       className={'inline'}>[Click here to see my lab!]</a>
+                       className={'inline'}>Click here to see my lab!</a>
                     <p>Highschool) Liceul Teoretic Orizont</p>
                     <a href={orizontlink} target={'_blank'} rel={'noopener noreferrer'}
-                       className={'inline'}>[Click here to see my school!]</a>
+                       className={'inline'}>Click here to see my school!</a>
                     <h3>Languages</h3>
                     <p>Korean (Native language)</p>
                     <p>Japanese (JLPT N1)</p>
