@@ -11,7 +11,9 @@ export default function Page() {
     return (
         <>
             <header className={'px-16 py-8 bg-photo-surface'}>
-                <h1 className={'text-[1.75rem] leading-loose'}>I Love</h1>
+                <h1 className={'text-[1.75rem] leading-loose'}>
+                    I Love
+                </h1>
             </header>
             <main>
                 <Image src={Jazz2} alt={'jazz2'} className={'w-full h-96 object-cover'}/>
