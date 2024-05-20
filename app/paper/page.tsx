@@ -6,7 +6,6 @@ export default function Page() {
         <div className={'bg-paper-background w-screen min-h-screen text-center'}>
             <header className={'absolute w-screen px-12 py-6 flex gap-8 justify-end'}>
                 <a>About</a>
-                <a>Works</a>
             </header>
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
