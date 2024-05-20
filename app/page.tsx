@@ -5,7 +5,7 @@ import "@/app/orange/_components/header.css";
 import Image from "next/image";
 import LinkedIn from "@/assets/linkedin_logo.png"
 import GitHub from "@/assets/github_logo.png"
-import thumbnail from "@/assets/thumbnail.jpg"
+import Thumbnail from "@/assets/thumbnail.jpg"
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           
           <div classname="relative w-full">
-            <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className="absolute top-16 left-1/2 transform -translate-x-1/2 -z-10"/>
+            <Image src={Thumbnail} alt={"thumbnail"} width={360} height={540} className="absolute top-16 left-1/2 transform -translate-x-1/2 -z-10"/>
           </div>
 
           <div className="z-10 text-center">
