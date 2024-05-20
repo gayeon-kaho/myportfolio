@@ -13,10 +13,10 @@ export default function Page() {
                 <div className={'paper'}>
                     <h1>My Skills</h1>
                     <h3>Education</h3>
-                    <p>Master degree) Osaka University Information Science and Technology</p>
+                    <p>Master&apos;s degree) Osaka University Information Science and Technology</p>
                     <p><a href={uranishilablink} target={'_blank'} rel={'noopener noreferrer'}
                        className={'inline'}>[Click here to see my lab!]</a></p>
-                    <p>Bachelor degree) Kumamoto University Electronic Engineering</p>
+                    <p>Bachelor&apos;s degree) Kumamoto University Electronic Engineering</p>
                     <a href={ogatalablink} target={'_blank'} rel={'noopener noreferrer'}
                        className={'inline'}>[Click here to see my lab!]</a>
                     <p>Highschool) Liceul Teoretic Orizont</p>
