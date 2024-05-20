@@ -4,23 +4,23 @@ import {orizontlink, ogatalablink, uranishilablink} from "@/app/property";
 export default function Page() {
     return (
         <div className={'bg-paper-background w-screen min-h-screen text-center'}>
-            <header className={'absolute w-screen px-12 py-6 flex gap-8 justify-end'}>
-                <a>About</a>
-                <a>Works</a>
-            </header>
+           // <header className={'absolute w-screen px-12 py-6 flex gap-8 justify-end'}>
+             //   <a>About</a>
+             //   <a>Works</a>
+           // </header>
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
                     <h1>My Skills</h1>
                     <h3>Education</h3>
                     <p>Master degree) Osaka University Information Science and Technology</p>
                     <p><a href={uranishilablink} target={'_blank'} rel={'noopener noreferrer'}
-                       className={'inline'}>Click here to see my lab!</a></p>
+                       className={'inline'}>[Click here to see my lab!]</a></p>
                     <p>Bachelor degree) Kumamoto University Electronic Engineering</p>
                     <a href={ogatalablink} target={'_blank'} rel={'noopener noreferrer'}
-                       className={'inline'}>Click here to see my lab!</a>
+                       className={'inline'}>[Click here to see my lab!]</a>
                     <p>Highschool) Liceul Teoretic Orizont</p>
                     <a href={orizontlink} target={'_blank'} rel={'noopener noreferrer'}
-                       className={'inline'}>Click here to see my school!</a>
+                       className={'inline'}>[Click here to see my school!]</a>
                     <h3>Languages</h3>
                     <p>Korean (Native language)</p>
                     <p>Japanese (JLPT N1)</p>
