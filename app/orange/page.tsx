@@ -1,5 +1,7 @@
 import "@/app/photographic/photographic.css"
 import Image from "next/image";
+import CherryBlossom from "@/assets/photographic/cherry.png";
+import Nemophila from "@/assets/photographic/nemophila.jpg";
 import Food1 from "@/assets/food1.png";
 import Food2 from "@/assets/food2.png";
 import {Section} from "@/app/photographic/_components/section";
