@@ -14,22 +14,23 @@ export default function Page() {
             </header>
             <main>
                 <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
-                <Section>
+                    <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2>Jazz</h2>
                     <p> </p>
-                </Section>
+                </section>
                 <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
-                <Image src={Food2} alt={'food2'} className={'w-8/12 h-96 object-cover'}/>
-                <Section>
+                <Image src={Food2} alt={'food2'} className={'w-full h-96 object-cover'}/>
+                <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2>Foods</h2>
                     <p>I love to cook, bake and eat</p>
-                </Section>
-                <Image src={Food1} alt={'food1'} className={'w-8/12 h-96 object-cover ml-auto'}/>
+                </section>
+                <Image src={Food1} alt={'food1'} className={'w-full h-96 object-cover ml-auto'}/>
                 <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
-                <Section>
+                <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2>People</h2>
                     <p> </p>
-                </Section>
+                </section>
+                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
             </main>
             <footer className={'py-8'}>
                 Lee GaYeon (KaHo) © {new Date().getFullYear()}
