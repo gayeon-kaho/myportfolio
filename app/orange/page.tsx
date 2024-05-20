@@ -6,7 +6,6 @@ import Jazz1 from "@/assets/orange/jazz1.png";
 import Jazz2 from "@/assets/orange/jazz2.png";
 import Food1 from "@/assets/food1.png";
 import Food2 from "@/assets/food2.png";
-import {Section} from "@/app/photographic/_components/section";
 
 export default function Page() {
     return (
@@ -17,20 +16,20 @@ export default function Page() {
             <main>
                 <Image src={Jazz2} alt={'jazz2'} className={'w-full h-96 object-cover'}/>
                     <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
-                    <h2>Jazz</h2>
-                    <p> </p>
+                    <h2 clasname={'font-semibold'}>Jazz</h2>
+                    <p>Ella Fitzgerald, Frank Sinatra, Chet Baker and many other</p>
                 </section>
                 <Image src={Jazz1} alt={'jazz1'} className={'w-full h-96 object-cover ml-auto'}/>
                 <Image src={Food2} alt={'food2'} className={'w-full h-96 object-cover'}/>
                 <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
-                    <h2>Foods</h2>
-                    <p>I love to cook, bake and eat</p>
+                    <h2 clasname={'font-semibold'}>Foods</h2>
+                    <p>I love to cook, bake and eat since I was 8 years old</p>
                 </section>
                 <Image src={Food1} alt={'food1'} className={'w-full h-96 object-cover ml-auto'}/>
                 <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
                 <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
-                    <h2>People</h2>
-                    <p> </p>
+                    <h2 clasname={'font-semibold'}>People</h2>
+                    <p>When people being people!</p>
                 </section>
                 <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
             </main>
