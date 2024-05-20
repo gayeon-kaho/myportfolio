@@ -12,10 +12,10 @@ export default function Page() {
                 <div className={'paper'}>
                     <h1>My Skills</h1>
                     <h3>Education</h3>
-                    <p>Master&apos;s degree) Osaka University Information Science and Technology</p>
+                    <p>Master degree) Osaka University Information Science and Technology</p>
                     <p><a href={uranishilablink} target={'_blank'} rel={'noopener noreferrer'}
                        className={'inline'}>[Click here to see my lab!]</a></p>
-                    <p>Bachelor&apos;s degree) Kumamoto University Electronic Engineering</p>
+                    <p>Bachelor degree) Kumamoto University Electronic Engineering</p>
                     <a href={ogatalablink} target={'_blank'} rel={'noopener noreferrer'}
                        className={'inline'}>[Click here to see my lab!]</a>
                     <p>Highschool) Liceul Teoretic Orizont</p>
@@ -36,10 +36,8 @@ export default function Page() {
                     <p>C / C++ / C#</p>
                     <p>JavaScript</p>
                     <h3>Activity/Internship</h3>
-                    <p>Osaka University GDSC (Google Developer Student Club): Event team Lead (2024)</p>
-                    <p>Microsoft Japan: Azure PaaS Developer Technical Support Engineer Intern (2022)</p>
-                    <p>Kumamoto University Aviation Club: Captain (2022) &amp;Accountant (2021) <p/>
-                    <p>Kumamoto University Athletic association headquarters: Director of general affairs (2022)</p>
+                    <p>Microsoft Azure PaaS Developer Technical Support Engineer (Intern)</p>
+                    <p>Osaka University GDSC (Google Developer Student Club) Event team Lead</p>
                 </div>
             </main>
             <footer className={'py-8'}>
