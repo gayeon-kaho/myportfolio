@@ -35,9 +35,6 @@ export default function Page() {
                     <p>Python</p>
                     <p>C / C++ / C#</p>
                     <p>JavaScript</p>
-                    <h3>Activity/Internship</h3>
-                    <p>Microsoft: Azure PaaS Developer Technical Support Engineer (Intern)</p>
-                    <p>Osaka University GDSC (Google Developer Student Club) Event team Lead</p>
                 </div>
             </main>
             <footer className={'py-8'}>
