@@ -1,6 +1,6 @@
+import Link from "next/link";
 import '@/app/paper/paper.css'
 import {orizontlink, ogatalablink, uranishilablink} from "@/app/property";
-import Link from "next/link";
 
 export default function Page() {
     return (
