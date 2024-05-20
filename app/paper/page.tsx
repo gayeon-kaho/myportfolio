@@ -1,13 +1,14 @@
 import '@/app/paper/paper.css'
 import {orizontlink, ogatalablink, uranishilablink} from "@/app/property";
+import Link from "next/link";
 
 export default function Page() {
     return (
         <div className={'bg-paper-background w-screen min-h-screen text-center'}>
-           // <header className={'absolute w-screen px-12 py-6 flex gap-8 justify-end'}>
-             //   <a>About</a>
-             //   <a>Works</a>
-           // </header>
+            <header className={'absolute w-screen px-12 py-6 flex gap-8 justify-end'}>
+                <a>About</a>
+                <Link href={'/photographic'}>I&apos;ve Done</Link>
+            </header>
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
                     <h1>My Skills</h1>
