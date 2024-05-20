@@ -1,7 +1,7 @@
 import "@/app/photographic/photographic.css"
 import Image from "next/image";
-import CherryBlossom from "@/assets/photographic/cherry.png";
-import Nemophila from "@/assets/photographic/nemophila.jpg";
+import Food1 from "@/assets/food1.png";
+import Food2 from "@/assets/food2.png";
 import {Section} from "@/app/photographic/_components/section";
 
 export default function Page() {
@@ -17,12 +17,13 @@ export default function Page() {
                     <p> </p>
                 </Section>
                 <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/>
-                <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Image src={Food2} alt={'food2'} className={'w-8/12 h-96 object-cover'}/>
                 <Section>
-                    <h2>Food</h2>
-                    <p> </p>
+                    <h2>Foods</h2>
+                    <p>I love to cook, bake and eat</p>
                 </Section>
-                <Image src={Nemophila} alt={'nemophila'} className={'w-8/12 h-96 object-cover ml-auto'}/><Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
+                <Image src={Food1} alt={'food1'} className={'w-8/12 h-96 object-cover ml-auto'}/>
+                <Image src={CherryBlossom} alt={'cherry-blossom'} className={'w-8/12 h-96 object-cover'}/>
                 <Section>
                     <h2>People</h2>
                     <p> </p>
