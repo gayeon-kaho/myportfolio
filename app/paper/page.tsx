@@ -1,4 +1,5 @@
 import '@/app/paper/paper.css'
+import {orizontlink, ogatalablink, uranishilablink} from "@/app/property";
 
 export default function Page() {
     return (
@@ -10,6 +11,16 @@ export default function Page() {
             <main className={'inline-block mx-auto'}>
                 <div className={'paper'}>
                     <h1>My Skills</h1>
+                    <h3>Education</h3>
+                    <p>Master degree) Osaka University Information Science and Technology</p>
+                    <p><a href={uranishilablink} target={'_blank'} rel={'noopener noreferrer'}
+                       className={'inline'}>Click here to see my lab</a></p>
+                    <p>Bachelor degree) Kumamoto University Electronic Engineering</p>
+                    <a href={ogatalablink} target={'_blank'} rel={'noopener noreferrer'}
+                       className={'inline'}>Click here to see my lab</a>
+                    <p>Highschool) Liceul Teoretic Orizont</p>
+                    <a href={orizontlink} target={'_blank'} rel={'noopener noreferrer'}
+                       className={'inline'}>Click here to see my school</a>
                     <h3>Languages</h3>
                     <p>Korean (Native language)</p>
                     <p>Japanese (JLPT N1)</p>
