@@ -16,7 +16,7 @@ export default function Home() {
               <p className={'inline text-6xl font-semibold pr-6'}>Hello, I&apos;m GaYeon/KaHo!</p>
             </h1>
             <div>
-              <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className={'absolute top-36 left-8 transform  -z-10'}/>
+              <Image src={thumbnail} alt={"thumbnail"} width={360} height={540} className={'absolute top-36 left-12 transform  -z-10'}/>
             <div className={'relative w-full  h-[36rem]'}>
               <section className={'bg-orange-container-a rounded-[1rem] p-12 leading-loose ' +
                         'absolute top-12'} style={{ right: '-32rem' }}>
