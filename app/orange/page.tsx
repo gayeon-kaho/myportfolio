@@ -15,18 +15,18 @@ export default function Page() {
                 </h1>
             </header>
             <main>
-                <Image src={Jazz2} alt={'jazz2'} className={'w-full h-96 object-cover'}/>
+                <Image src={Jazz2} alt={'jazz2'} className={'w-full h-full object-cover'}/>
                     <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2 className={'font-semibold'}>Jazz</h2>
                     <p>Ella Fitzgerald, Frank Sinatra, Chet Baker and many other</p>
                 </section>
-                <Image src={Jazz1} alt={'jazz1'} className={'w-full h-96 object-cover ml-auto'}/>
-                <Image src={Food2} alt={'food2'} className={'w-full h-96 object-cover'}/>
+                <Image src={Jazz1} alt={'jazz1'} className={'w-full h-full object-cover ml-auto'}/>
+                <Image src={Food2} alt={'food2'} className={'w-full h-full object-cover'}/>
                 <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2 className={'font-semibold'}>Foods</h2>
                     <p>I love to cook, bake and eat since I was 8 years old</p>
                 </section>
-                <Image src={Food1} alt={'food1'} className={'w-full h-96 object-cover ml-auto'}/>
+                <Image src={Food1} alt={'food1'} className={'w-full h-full object-cover ml-auto'}/>
                 <section className={'bg-photo-surface h-48 flex flex-col justify-center items-center gap-2'}>
                     <h2 className={'font-semibold'}>People</h2>
                     <p>When people being people!</p>
