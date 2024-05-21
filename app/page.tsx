@@ -10,7 +10,7 @@ import thumbnail from "@/assets/thumbnail.jpg"
 export default function Home() {
   return (
       <main className={'w-screen h-screen p-20 bg-slate-50 flex flex-row gap-4'}>
-          <div className={'max-w-screen-lg flex flex-col items-center mx-auto px-12 z-10'}>
+          <div className={'min-h-screen flex flex-col justify-center items-center mx-auto mt-20 px-12 z-10'}>
             <Header/>
             <h1 className={"py-32 line text-center"}>
               <p className={'inline text-6xl font-semibold pr-6'}>Hello, I&apos;m GaYeon/KaHo!</p>
